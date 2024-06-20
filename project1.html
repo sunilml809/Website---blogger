@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!--Sources Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!--Popper & JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <!--CDN-->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--CSS & Javascript-->
+    <link rel="stylesheet" href="project1.css">
+    <script src="project1.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IS:wght@100..400&family=Playwrite+PT:wght@100..400&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--AOS Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar starts here-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#" data-aos="fade-right" data-aos-duration="3000"
+                data-aos-easing="linear">Bhojana<br><span class="text-primary">Parichaya</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center" data-aos="fade-left" data-aos-duration="3000">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#taste">Taste</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Review">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contact</a>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="https://www.youtube.com/@bhojanaparichaya7668"><img src="Imagesss/youtube.png"
+                                alt="Image Not Found"></a>
+                        <a href="https://www.instagram.com/sunil_sonii_vlogss"><img src="Imagesss/instagram.png"
+                                alt="Image Not Found"></a>
+                        <a href="https://www.linkedin.com/in/sunil-goudar-5a04b4308/"><img src="Imagesss/linkedin.png"
+                                alt="Image Not Found"></a>
+                        <a href="#" onclick="myFunction()"><img src="Imagesss/moon.png" alt="Image Not Found"></a>
+                    </li>
+                    <li class="explore">
+                        <a class="btn p-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample" id="offcanvas1" onmouseover="bigImg(this)"
+                            onmouseout="normalImg(this)">
+                            Explore
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--This is for the Offcanvas-->
+    <div class="offcanvas offcanvas-start w-100 bg-transparent" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <h1 class="text-center text-white" data-aos="fade-up" data-aos-duration="3000"> Slogan <span
+                        class="text-primary">Shoutout!!!</span> </h1>
+                <p class="text-center py-3 text-white" data-aos="fade-up" data-aos-duration="3000">I JUST LOVE TO TASTE.
+                    <br>
+                    HEY GUYS, WELCOME TO MY CHANNEL. <br>
+                    I BELIEVE THAT GREAT INDIAN DISHES ARE SERVED IN HOMES AND STREETS. <br>
+                    I LIKE TO TASTE EVERYTHING THAT IS EATABLE. <br>
+                    PUT YOUR HANDS ON MY PLATE. <br>
+                    WALK ALONG WITH MY JOURNEY. <br>
+                    SHOW LOVE & RESPECT. <br>
+                    BHOJANA PARICHAYA.
+                </p>
+                <p class="text-center py-1" data-aos="fade-up" data-aos-duration="3000"> <a
+                        href="https://www.youtube.com/@bhojanaparichaya7668" type="button"
+                        class="text-white button border border-white p-2" style="text-decoration: none;">Youtube</a></p>
+            </div>
+        </div>
+    </div>
+    <!--Navbar ends here-->
+
+    <!--Second section startss here-->
+    <header class="header1">
+        <div class="head-text">
+            <h3 class="text-center" data-aos="fade-up" data-aos-duration="3000">India is the Spice Capital of the World.
+            </h3>
+            <p class="text-center py-2" data-aos="fade-up" data-aos-duration="2500">Indian food is different from rest
+                of the world not only in taste but also
+                in
+                cooking methods. It reflects a
+                perfect blend of various cultures and ages. Just like Indian culture, food in India has also been
+                influenced
+                by various civilizations, which have contributed their share in its overall development and the
+                present
+                form.</p>
+            <div class="text-center" data-aos="fade-up" data-aos-duration="2200">
+                <a href="#" class="btn border border-white text-white mx-3" role="button"
+                    data-bs-toggle="button">Youtube</a>
+                <a href="#" class="btn border border-white text-white mx-3" role="button"
+                    data-bs-toggle="button">Instagram</a>
+            </div>
+        </div>
+    </header>
+    <!--Second section ends here-->
+
+    <!-- About section starts here-->
+    <div class="container-fluid about-section" id="about">
+        <h2 class="text-center py-3 my-3" data-aos="fade-up" data-aos-duration="3000">About<span class="text-primary">
+                Bhojana Parichaya</span> </h2>
+    </div>
+    <div class="container-fluid text-center abt-sec">
+        <p>
+            Hey friends, Hope you doing great !! <br>
+            Welcome to to Bhojana Parichaya, good to see you. <br>
+            I travel to every corner of the Bangalore to introduce to the signatures of India.
+            Exploring the
+            spices with
+            village reciepes, nati styles, authnetic foods, biryanis, royal buffets, iconic
+            resturants, breakfasts,
+            lunch,
+            dinner, snacks, cold-Hot drinks, street foods, resto-pubs, Open-resturants and much more
+        </p>
+    </div>
+    <!-- About section ends here-->
+
+    <!--Taste Section starts here-->
+    <div class="container-fluid about-section" id="taste">
+        <h2 class="text-center py-3 my-3" data-aos="fade-up" data-aos-duration="3000">Taste<span class="text-primary">
+                Explored</span> </h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row px-4 text-center">
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card1">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Indian Traditional Cuisine</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card2">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Iconic Biryani</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card3">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Desi Village Style</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card4">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Oldest Restuarants</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card5">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Nati Styles</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card6">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Royal Buffets</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card7">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Resto-Pubs & Cafeteria</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 tst-img" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card p-2 m-2 shadow-lg card8">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <p><a href="#">Street Food & Chatzz</a></p>
+            </div>
+        </div>
+    </div>
+    <!--Taste Section ends here-->
+
+    <!--Reviews starts here-->
+    <div class="container-fluid about-section" id="Review">
+        <h2 class="text-center py-3 my-3" data-aos="fade-up" data-aos-duration="3000">Latest Followers<span
+                class="text-primary"> Review</span> </h2>
+    </div>
+    <div class="container-fluid my-2">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="3000">
+                <div class="shadow-lg p-3 rew1">
+                    <span class="fa fa-star checked ms-3 my-2"></span>
+                    <span class="fa fa-star checked "></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p class="ms-3 my-2">16 Nov 2019</p>
+                    <p class="ms-3 my-2">Kiran Patel</p>
+                    <h6 class="ms-3 my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+                        doloremque seos quos libero
+                        tempora. Suscipit, consequatur ut aperiam autem consectetur facilis eum officia soluta
+                        dolore
+                        cumque totam, quia enim nihil!</h6>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 rew2" data-aos="fade-left" data-aos-duration="3000">
+                <div class="shadow-lg p-3">
+                    <span class="fa fa-star checked ms-3 my-2"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p class="ms-3 my-2">21 Aug 2022</p>
+                    <p class="ms-3 my-2">Aysuhman Bhumra</p>
+                    <h6 class="ms-3 my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+                        doloremque
+                        eos quos libero
+                        tempora. Suscipit, consequatur ut aperiam autem consectetur facilis eum officia soluta
+                        dolore
+                        cumque totam, quia enim nihil!</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Reviews ends here-->
+
+
+    <!--Contact details starts here-->
+    <div class="container-fluid about-section" id="contacts">
+        <h2 class="text-center py-3 my-3" data-aos="fade-up" data-aos-duration="3000">Connect With<span
+                class="text-primary"> Me Now</span> </h2>
+    </div>
+    <div class="container-fluid contactss">
+        <div class="row text-center" data-aos="fade-down" data-aos-duration="3000">
+            <div class="col-12 col-md-6 col-lg-6">
+                <h5 class="text-center mt-3">Sign<span class="text-primary">Up</span></h5>
+                <form class=" my-2 py-2 ms-5 shadow-lg formss" id="form" onsubmit=" return validate()"
+                    action="message.html">
+                    <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2" id="fullname" required />
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                        <input class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2"
+                            id="phonenumber" required />
+                        <div id="emailHelp" class="form-text">Please enter your whatsapp number</div>
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="text" class="form-control" aria-describedby="emailHelp" id="email" required />
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required /><br>
+                    </div>
+                    <button type="submit" class="btn border border-black my-2" onclick="validate()">Submit</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h5 class="text-center mt-3">Location & <span class="text-primary">Details</span></h5>
+                <div class="row mt-4">
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo1.jpg" alt="Image Not Found" class="mt-3 text-center">
+                            <h6 class="m-0 text-center">Location</h6>
+                            <p class="text-center">Kengeri, Bangalore</p>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo2.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Email</h6>
+                            <p>sunilml061193@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo3.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Phone</h6>
+                            <p>Confidential - Reach me through mail</p>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo4.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Collabration</h6>
+                            <p>DM directly on social media</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo5.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Invitation</h6>
+                            <p>On mail: sunilml061193@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo6.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Promotion</h6>
+                            <p>Only in Story & Community.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo7.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Payments</h6>
+                            <p>Accepted only in INR</p>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="mb-1 py-1 location">
+                            <img src="Imagesss/logo8.jpg" alt="Image Not Found" class="mt-3">
+                            <h6 class="m-0">Physical Meeting</h6>
+                            <p>Only Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact details ends here-->
+
+    <div class="ccontainer-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center footer">
+                        <h6 class="text-center"> @All rights reserved.</h6>
+                        <h6>Bhojana<span class="text-primary">Parichaya</span></h6>
+                        <span>Private Youtube Channel</span> ||
+                        <span>500 subscribers:Youtube</span> ||
+                        <span>300+ followers:Instagram</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Javascript code-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

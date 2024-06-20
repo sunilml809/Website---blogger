@@ -1,0 +1,282 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav-logo img {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 2px 2px black;
+    background-color: gray;
+    color: white;
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+/*  Header section starts here */
+
+.rew1 p {
+    color: black;
+}
+
+.rew1 h6 {
+    color: black;
+}
+
+.rew2 p {
+    color: black;
+}
+
+.rew2 h6 {
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .explore a
+    {
+        color: white;
+    }
+
+    .nav-link:hover {
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        box-shadow: 2px 2px white;
+        background-color: black;
+        color: white;
+        opacity: 0.6;
+        transition: 0.9s;
+    }
+
+    #offcanvas1 {
+        color: white;
+    }
+
+    .rew1 p {
+        color: white;
+    }
+
+    .rew1 h6 {
+        color: white;
+    }
+
+    .rew2 p {
+        color: white;
+    }
+
+    .rew2 h6 {
+        color: white;
+    }
+
+    .formss button {
+        border: 1px solid white;
+        color: white;
+    }
+
+    .location p {
+        font-size: 12px;
+        color: white;
+    }
+
+    .location h6 {
+        color: white;
+    }
+
+    .footer h6 {
+        color: white;
+    }
+
+    .footer span {
+        color: white;
+    }
+}
+
+
+.header1 {
+    background-image: url("Imagesss/img2.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.head-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/*-About section start here-*/
+
+.about-section h2 {
+    box-shadow: 0px 2px 0px 2px rgb(178, 178, 204);
+}
+
+.abt-sec {
+    width: 100%;
+    height: 60vh;
+    background-image: url("Imagesss/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+    position: relative;
+}
+
+.abt-sec p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+/*-Taste starts here-*/
+
+
+.tst-img p a{
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.card {
+    width: 100%;
+    height: 225px;
+}
+
+.card1 {
+    background-image: url("Imagesss/img4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url("Imagesss/img5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3 {
+    background-image: url("Imagesss/img6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4 {
+    background-image: url("Imagesss/img7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5 {
+    background-image: url("Imagesss/img8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card6 {
+    background-image: url("Imagesss/img9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card7 {
+    background-image: url("Imagesss/img10.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card8 {
+    background-image: url("Imagesss/img11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card h5,
+h6 {
+    color: white;
+}
+
+/*-Forms starts here-*/
+
+.form-label {
+    font-size: 15px;
+}
+
+.formss input {
+    text-decoration: none;
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
+}
+
+.location p {
+    font-size: 12px;
+    color: black;
+}
+
+.location h6 {
+    color: black;
+}
+
+.location img {
+    width: 35px;
+    height: 35px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer span {
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 8px;
+}
+
+.footer h6 {
+    color: black;
+    font-size: 10px;
+}
